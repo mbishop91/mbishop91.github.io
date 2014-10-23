@@ -22,7 +22,7 @@ pomegranate = '#cb4d4d',
 clouds = '#ecf0f1',
 carrot = '#e09952',
 peterRiver = '#4d77cb';
-$(document).ready(function() {
+document.addEventListener("DOMContentLoaded", function(){
 	$('body').hover(function() {
 		$("body").css("background", midnightBlue);
 		$("h2:contains('To Do - Site')").css('color', clouds).parents('.list').css('background', amethyst);
@@ -34,4 +34,4 @@ $(document).ready(function() {
 		$("h2:contains('known issues')").css('color', clouds).parents('.list').css('background', pomegranate);
 		$("h2:contains('Done')").css('color', clouds).parents('.list').css('background', emerald);
 	});
-});
+},false);
