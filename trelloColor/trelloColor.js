@@ -2,6 +2,7 @@ var fileref=document.createElement("link");
 fileref.setAttribute("rel", "stylesheet");
 fileref.setAttribute("type", "text/css");
 fileref.setAttribute("href", "https://mbishop91.github.io/trelloColor/trelloColor.css");
+document.getElementsByTagName("head")[0].appendChild(fileref);
 
 var midnightBlue = '#2c3e50',
 amethyst = '#93c',
@@ -12,7 +13,6 @@ carrot = '#e09952',
 peterRiver = '#4d77cb';
 
 function changeColors() {
-	console.log("test");
 	$("h2:contains('To Do - Site')").css('color', clouds).parents('.list').css('background', amethyst);
 	$("h2:contains('Doing - Site')").css('color', clouds).parents('.list').css('background', amethyst);
 	$("h2:contains('To Do - App')").css('color', clouds).parents('.list').css('background', carrot);
