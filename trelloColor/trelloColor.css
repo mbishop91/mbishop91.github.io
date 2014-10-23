@@ -1,0 +1,27 @@
+.window-wrapper.clearfix.js-tab-parent { background-color: white }
+
+.open-card-composer.js-open-card-composer { color : rgb(44, 62, 80) }
+
+.open-card-composer:hover {
+	background : none;
+	text-decoration : none
+	opacity : .5
+}
+
+.badge-state-complete {background-color : #34b27d}" +
+input[type='submit'].primary,
+input[type='button'].primary,
+button.primary,
+.button.primary {
+	background : #2ecc71
+}
+
+input[type='submit'].primary:hover,
+input[type='button'].primary:hover,
+button.primary:hover,
+.button.primary:hover,
+input[type='submit'].primary:focus,
+input[type='button'].primary:focus,
+button.primary:focus { 
+	background : #27ae60 
+}
