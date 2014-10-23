@@ -12,7 +12,6 @@ carrot = '#e09952',
 peterRiver = '#4d77cb';
 document.addEventListener("DOMContentLoaded", function(){
 	$('body').hover(function() {
-		$("body").css("background", midnightBlue);
 		$("h2:contains('To Do - Site')").css('color', clouds).parents('.list').css('background', amethyst);
 		$("h2:contains('Doing - Site')").css('color', clouds).parents('.list').css('background', amethyst);
 		$("h2:contains('To Do - App')").css('color', clouds).parents('.list').css('background', carrot);
