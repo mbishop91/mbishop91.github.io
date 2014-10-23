@@ -23,5 +23,6 @@ function changeColors() {
 }
 
 document.addEventListener("DOMContentLoaded", function(){
+	console.log("test");
 	changeColors(); $('body').hover(function() {changeColors();});
 },false);
