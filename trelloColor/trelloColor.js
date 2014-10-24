@@ -23,6 +23,6 @@ function changeColors() {
 	$("h2:contains('Done')").css('color', clouds).parents('.list').css('background', emerald);
 }
 
-document.addEventListener("DOMContentLoaded", function(){
+window.onload = function(){
 	changeColors(); $('body').hover(function() {changeColors();});
-},false);
+};
