@@ -27,3 +27,11 @@ input[type='button'].primary:focus,
 button.primary:focus { 
 	background : #27ae60 !important;
 }
+
+.board-header.clearfix.js-board-header, #header {
+	background: rgba(0,0,0,.5);
+}
+.board-header-btn:not(.no-edit):hover {
+	background: #fff;
+	color: black;
+}
