@@ -35,3 +35,7 @@ button.primary:focus {
 	background: #fff !important;
 	color: black !important;
 }
+
+.board-header.clearfix.js-board-header {
+	margin-bottom: 15px;
+}
