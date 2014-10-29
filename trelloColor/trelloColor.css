@@ -32,6 +32,6 @@ button.primary:focus {
 	background: rgba(0,0,0,.5) !important;
 }
 .board-header-btn:not(.no-edit):hover {
-	background: #fff;
-	color: black;
+	background: #fff !important;
+	color: black !important;
 }
