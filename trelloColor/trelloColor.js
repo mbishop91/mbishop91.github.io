@@ -10,13 +10,15 @@ emerald = '#34b27d',
 pomegranate = '#cb4d4d',
 clouds = '#ecf0f1',
 carrot = '#e09952',
-peterRiver = '#4d77cb';
+peterRiver = '#4d77cb',
+yellow ="#dbdb57";
 
 function changeColors() {
 	$("h2:contains('Site')").css('color', clouds).parents('.list').css('background', amethyst);
 	$("h2:contains('App')").css('color', clouds).parents('.list').css('background', carrot);
 	$("h2:contains('API')").css('color', clouds).parents('.list').css('background', peterRiver);
 	$("h2:contains('issues')").css('color', clouds).parents('.list').css('background', pomegranate);
+	$("h2:contains('Doing')").parents('.list').css('background', yellow);
 	$("h2:contains('Done')").css('color', clouds).parents('.list').css('background', emerald);
 }
 
