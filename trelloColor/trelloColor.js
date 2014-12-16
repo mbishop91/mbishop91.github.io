@@ -19,8 +19,8 @@ function changeColors() {
 	$("h2:contains('App')").css('color', clouds).parents('.list').css('background', carrot);
 	$("h2:contains('API')").css('color', clouds).parents('.list').css('background', peterRiver);
 	$("h2:contains('issues')").css('color', clouds).parents('.list').css('background', pomegranate);
-	$("h2:contains('Doing')").parents('.list').css('background', yellow);
-	$("h2:contains('Today')").parents('.list').css('background', yellow);
+	$("h2:contains('Doing')").parents('.list').css('background', yellow).find(".open-card-composer.js-open-card-composer").attr("style", "color : " + black +  " !important");
+	$("h2:contains('Today')").parents('.list').css('background', yellow).find(".open-card-composer.js-open-card-composer").attr("style", "color : " + black +  " !important");
 	$("h2:contains('Done')").css('color', clouds).parents('.list').css('background', emerald);
 	$("h2:contains('Phase 2, unable to implement')").css('color', clouds).parents('.list').css('background', black);
 }
