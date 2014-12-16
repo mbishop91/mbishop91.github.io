@@ -11,7 +11,8 @@ pomegranate = '#cb4d4d',
 clouds = '#ecf0f1',
 carrot = '#e09952',
 peterRiver = '#4d77cb',
-yellow ="#dbdb57";
+yellow = "#dbdb57",
+black = "#4d4d4d";
 
 function changeColors() {
 	$("h2:contains('Site')").css('color', clouds).parents('.list').css('background', amethyst);
@@ -21,6 +22,7 @@ function changeColors() {
 	$("h2:contains('Doing')").parents('.list').css('background', yellow);
 	$("h2:contains('Today')").parents('.list').css('background', yellow);
 	$("h2:contains('Done')").css('color', clouds).parents('.list').css('background', emerald);
+	$("h2:contains('Phase 2, unable to implement')").css('color', clouds).parents('.list').css('background', black);
 }
 
 window.onload = function(){
